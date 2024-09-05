@@ -1,0 +1,18 @@
+.wrapp {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 70px;
+
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+
+    font-size: 50px;
+}
+
+.wrapp:hover {
+    filter:brightness(0.7)
+}
